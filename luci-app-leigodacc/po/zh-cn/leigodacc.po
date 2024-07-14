@@ -1,0 +1,93 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+
+msgid "Stop Acc Service"
+msgstr "停止加速服务"
+
+msgid "Start Acc Service"
+msgstr "启动加速服务"
+
+msgid "Leigod Notice"
+msgstr "加速公告"
+
+msgid "Leigod Accelerator Usage"
+msgstr "雷神加速器使用说明"
+
+msgid "Leigod Accelerator Config"
+msgstr "加速器配置"
+
+msgid "Control Accelerator Config"
+msgstr "控制加速配置选项"
+
+msgid "Leigod Device Config"
+msgstr "设备管理配置"
+
+msgid "Control Device Config"
+msgstr "控制和改变设备类型"
+
+msgid "acc interface"
+msgstr "加速设备"
+
+msgid "None_Catalog"
+msgstr "无"
+
+msgid "Phone_Catalog"
+msgstr "手机"
+
+msgid "Game_Catalog"
+msgstr "游戏主机"
+
+msgid "PC_Catalog"
+msgstr "电脑"
+
+msgid "VR_Catalog"
+msgstr "VR 设备"
+
+msgid "Unknown_Catalog"
+msgstr "未识别设备"
+
+msgid "Acc_Service_Name"
+msgstr "加速服务"
+
+msgid "Acc_Service_Status"
+msgstr "启动状态"
+
+msgid "Acc_Service_Operate"
+msgstr "加速设置"
+
+msgid "acc_service_state_cell"
+msgstr "加速设备"
+
+msgid "acc_service_status_cell"
+msgstr "启动状态"
+
+msgid "acc_catalog_state_table"
+msgstr "状态表单"
+
+msgid "acc_service_name_cell"
+msgstr "加速服务"
+
+msgid "acc_service_status_cell"
+msgstr "启动状态"
+
+msgid "acc_service_operate_cell"
+msgstr "加速设置"
+
+msgid "Declare"
+msgstr "声明"
+
+msgid "Upgrade Info"
+msgstr "更新内容"
+
+msgid "Install Dependence"
+msgstr "安装依赖"
+
+msgid "Bridge Mode"
+msgstr "桥接模式"
+
+msgid "Acc Mode"
+msgstr "加速模式"
+
+msgid "Acc Usage"
+msgstr "使用说明"

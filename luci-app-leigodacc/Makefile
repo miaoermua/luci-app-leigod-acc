@@ -8,12 +8,10 @@ PKG_CONFIG_DEPENDS:= \
 	CONFIG_PACKAGE_$(PKG_NAME)_INCLUDE_tc-full \
 	CONFIG_PACKAGE_$(PKG_NAME)_INCLUDE_kmod-netem \
 
-LUCI_TITLE:=SS/SSR/V2Ray/Trojan/NaiveProxy/Tuic/ShadowTLS/Hysteria/Socks5/Tun LuCI interface
+LUCI_TITLE:=Leigod LuCI interface by miaoermua
 LUCI_PKGARCH:=all
 LUCI_DEPENDS:= \
-	+libpcap +iptables +kmod-ipt-nat +iptables-mod-tproxy +kmod-ipt-tproxy +kmod-netem +tc-full +kmod-ipt-ipset +ipset +curl
-	+PACKAGE_$(PKG_NAME)_INCLUDE_tc-full:tc-full \
-	+PACKAGE_$(PKG_NAME)_INCLUDE_kmod-netem:kmod-netem \
+	+libpcap +iptables +kmod-ipt-nat +iptables-mod-tproxy +kmod-ipt-tproxy +kmod-netem +tc-full +kmod-ipt-ipset +ipset +miniupnpd +curl
 
 define Package/$(PKG_NAME)/conffiles
 /etc/config/shadowsocksr

@@ -1,4 +1,5 @@
 local uci                         = require "luci.model.uci".cursor()
+local translate = luci.i18n.translate
 
 -- config
 m                                 = Map("accelerator")
