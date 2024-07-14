@@ -1,10 +1,3 @@
---[[
-Author: 喵二
-Date: 2024-06-07 20:19:01
-LastEditors: 喵二
-LastEditTime: 2024-06-08 02:13:06
-FilePath: \luci-app-leigodacc\luci-app-leigodacc\luasrc\model\cbi\leigod\device.lua
---]]
 local uci     = require "luci.model.uci".cursor()
 local util    = require "luci.util"
 local fs      = require "nixio.fs"
