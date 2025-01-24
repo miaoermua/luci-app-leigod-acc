@@ -4,7 +4,7 @@
 
 基于官方插件修改加入优化和翻译，优化安装过程方便开发者进行集成。
 
-![](https://fastly.jsdelivr.net/gh/miaoermua/static@main/24-08-13/catwrt-v24.9-leigod.webp)
+![](https://fastly.jsdelivr.net/gh/miaoermua/static@main/blog/24-08-13/catwrt-v24.9-leigod.webp)
 
 > 插件暂不支持 luci2 nft fw4
 
