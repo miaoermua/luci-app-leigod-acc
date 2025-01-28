@@ -43,6 +43,10 @@ https://www.miaoer.net/posts/blog/openwrt-leigodacc-manager
 
 https://www.miaoer.net/posts/blog/leigod-acc-router-plugin
 
+### 协议
+
+本项目你可以自由修改或 PR，使用或集成需要标注原作者并且遵守开源协议，专有二进制文件由 雷神（武汉）网络技术有限公司 所有。
+
 ---
 
 感谢: [@coolsnowwolf](https://github.com/coolsnowwolf) | [@aiamadeus](https://github.com/aiamadeus)
