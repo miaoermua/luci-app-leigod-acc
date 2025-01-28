@@ -20,6 +20,19 @@
 <img src="https://fastly.jsdelivr.net/gh/miaoermua/static@main/images/sponsor-leigod.webp">
 </p>
 
+## 编译
+
+如果你已经使用的 Lean's LEDE 在最新版本中和本项目并无差距
+
+```bash
+cd lede/package/lean
+rm -rf leigod-acc
+rm -rf luci-app-leigod-acc
+cd ..
+git clone https://github.com/miaoermua/luci-app-leigod-acc.git
+make menuconfig #choose LUCI->Applications->luci-app-leigod-acc
+make -j1 V=s
+```
 
 ## 使用指南
 
