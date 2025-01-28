@@ -1,4 +1,4 @@
-# luci-app-leigodacc
+# luci-app-leigod-acc
 
 基于雷神加速器官方的 OpenWrt 修改版本，原仓库 [Lean's LEDE](https://github.com/coolsnowwolf/lede/tree/master/package/lean) 剥离独立的雷神加速器插件仓库
 
