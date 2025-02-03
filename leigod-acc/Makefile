@@ -8,20 +8,20 @@ include $(TOPDIR)/rules.mk
 
 PKG_NAME:=leigod-acc
 PKG_VERSION:=1.3.0.30
-PKG_RELEASE:=2
+PKG_RELEASE:=3
 
 include $(INCLUDE_DIR)/package.mk
 
 define Package/$(PKG_NAME)
 	SECTION:=net
 	CATEGORY:=Network
-	TITLE:=Powerful Leigod Game Accelerater
-	DEPENDS:=@(x86_64||arm||mipsel||aarch64)
+	TITLE:=Leigod Accelerator: Dedicated line for gaming acceleration. Pay by the minute, pause anytime.
+	DEPENDS:=@(x86_64||arm||mipsel||aarch64) +libpcap +iptables +kmod-ipt-nat +iptables-mod-tproxy +kmod-ipt-tproxy +kmod-tun +kmod-netem +tc-full +kmod-ipt-ipset +ipset +curl +miniupnpd +conntrack +conntrackd
 	URL:=https://www.leigod.com/
 endef
 
 define Package/$(PKG_NAME)/description
-leigod-acc is a powerful game accelerater
+Leigod Accelerator: Dedicated line for gaming acceleration. Pay by the minute, pause anytime.
 endef
 
 ifeq ($(ARCH),x86_64)
