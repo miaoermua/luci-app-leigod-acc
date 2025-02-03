@@ -6,11 +6,11 @@
 
 include $(TOPDIR)/rules.mk
 
-LUCI_TITLE:=Luci for Leigod Game Accelerater
+LUCI_TITLE:=Leigod Accelerator: Dedicated line for gaming acceleration. Pay by the minute, pause anytime.
 LUCI_PKGARCH:=all
-LUCI_DEPENDS:=+libpcap +iptables +kmod-ipt-nat +iptables-mod-tproxy +kmod-ipt-tproxy +kmod-tun +kmod-netem +tc-full +kmod-ipt-ipset +ipset +curl +miniupnpd +conntrack +conntrackd +leigod-acc +jq
+LUCI_DEPENDS:=+leigod-acc +jq
 PKG_VERSION:=1
-PKG_RELEASE:=5
+PKG_RELEASE:=6
 
 include $(TOPDIR)/feeds/luci/luci.mk
 
