@@ -39,6 +39,18 @@ make menuconfig #choose LUCI->Applications->luci-app-leigod-acc
 make -j1 V=s
 ```
 
+如果不是 Lean's LEDE 使用，这里以 immoralwrt 举例这里你可以改成自己用到的项目仓库名字进行更改。
+
+```bash
+# 需要进入编译的项目目录如 immoralwrt 则
+cd immoralwrt/package
+git clone https://github.com/miaoermua/luci-app-leigod-acc.git
+make menuconfig #choose LUCI->Applications->luci-app-leigod-acc
+make -j1 V=s
+```
+
+由于项目需要编译到 kmod 内核模块，所以第一次编译请不要勾选插件，或者使用 -j1 编译以免遇到多线程导致的报错。
+
 ## 使用指南
 
 编译此项目，安装或集成到 OpenWrt 上，选择 Tun 模式
